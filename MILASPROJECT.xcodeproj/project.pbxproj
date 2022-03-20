@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F06C9762768DD3F0002E327 /* Metier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06C9752768DD3F0002E327 /* Metier.swift */; };
+		6F0D7B8727634776000B0E5E /* Resultat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B8627634776000B0E5E /* Resultat.swift */; };
+		6F0D7B8F27673CB8000B0E5E /* Evenement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B8E27673CB8000B0E5E /* Evenement.swift */; };
+		6F0D7B9127673ECD000B0E5E /* TabVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B9027673ECD000B0E5E /* TabVue.swift */; };
+		6F0D7B9E276742CA000B0E5E /* IntroJeu3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B97276742CA000B0E5E /* IntroJeu3.swift */; };
+		6F0D7B9F276742CA000B0E5E /* IntroJeu5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B98276742CA000B0E5E /* IntroJeu5.swift */; };
+		6F0D7BA0276742CA000B0E5E /* IntroJeu2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B99276742CA000B0E5E /* IntroJeu2.swift */; };
+		6F0D7BA1276742CA000B0E5E /* IntroJeu7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B9A276742CA000B0E5E /* IntroJeu7.swift */; };
+		6F0D7BA2276742CA000B0E5E /* IntroJeu4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B9B276742CA000B0E5E /* IntroJeu4.swift */; };
+		6F0D7BA3276742CA000B0E5E /* IntroJeu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B9C276742CA000B0E5E /* IntroJeu1.swift */; };
+		6F0D7BA4276742CA000B0E5E /* IntroJeu6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B9D276742CA000B0E5E /* IntroJeu6.swift */; };
+		6F299D73275F5F4F0073D971 /* MILASPROJECTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D72275F5F4F0073D971 /* MILASPROJECTApp.swift */; };
+		6F299D7A275F5F510073D971 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F299D79275F5F510073D971 /* Preview Assets.xcassets */; };
+		6F299D83275F5F8F0073D971 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D82275F5F8F0073D971 /* Models.swift */; };
+		6F299D85275F5F990073D971 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D84275F5F990073D971 /* Database.swift */; };
+		6F299D87275F72C00073D971 /* Activités.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D86275F72C00073D971 /* Activités.swift */; };
+		6F299D8B275F8C130073D971 /* ReussiteJeu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D8A275F8C130073D971 /* ReussiteJeu1.swift */; };
+		6F299D93275FA59A0073D971 /* Branches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D92275FA59A0073D971 /* Branches.swift */; };
+		6F299DAB2760D5830073D971 /* getTrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299DAA2760D5830073D971 /* getTrans.swift */; };
+		6F299DAD2760F4EF0073D971 /* Jeu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299DAC2760F4EF0073D971 /* Jeu1.swift */; };
+		6F6EE59B2769E36100757541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6EE59A2769E36100757541 /* Assets.xcassets */; };
+		6F6EE59D2769E5AB00757541 /* EvenementDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6EE59C2769E5AB00757541 /* EvenementDetail.swift */; };
+		6F6EE59F276A27AF00757541 /* Dev.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6F6EE59E276A27AF00757541 /* Dev.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F06C9752768DD3F0002E327 /* Metier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metier.swift; sourceTree = "<group>"; };
+		6F0D7B8627634776000B0E5E /* Resultat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resultat.swift; sourceTree = "<group>"; };
+		6F0D7B8E27673CB8000B0E5E /* Evenement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evenement.swift; sourceTree = "<group>"; };
+		6F0D7B9027673ECD000B0E5E /* TabVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabVue.swift; sourceTree = "<group>"; };
+		6F0D7B97276742CA000B0E5E /* IntroJeu3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu3.swift; sourceTree = "<group>"; };
+		6F0D7B98276742CA000B0E5E /* IntroJeu5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu5.swift; sourceTree = "<group>"; };
+		6F0D7B99276742CA000B0E5E /* IntroJeu2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu2.swift; sourceTree = "<group>"; };
+		6F0D7B9A276742CA000B0E5E /* IntroJeu7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu7.swift; sourceTree = "<group>"; };
+		6F0D7B9B276742CA000B0E5E /* IntroJeu4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu4.swift; sourceTree = "<group>"; };
+		6F0D7B9C276742CA000B0E5E /* IntroJeu1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu1.swift; sourceTree = "<group>"; };
+		6F0D7B9D276742CA000B0E5E /* IntroJeu6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu6.swift; sourceTree = "<group>"; };
+		6F299D6F275F5F4F0073D971 /* MILASPROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MILASPROJECT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F299D72275F5F4F0073D971 /* MILASPROJECTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILASPROJECTApp.swift; sourceTree = "<group>"; };
+		6F299D79275F5F510073D971 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F299D82275F5F8F0073D971 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		6F299D84275F5F990073D971 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		6F299D86275F72C00073D971 /* Activités.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activités.swift"; sourceTree = "<group>"; };
+		6F299D8A275F8C130073D971 /* ReussiteJeu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReussiteJeu1.swift; sourceTree = "<group>"; };
+		6F299D92275FA59A0073D971 /* Branches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branches.swift; sourceTree = "<group>"; };
+		6F299DAA2760D5830073D971 /* getTrans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getTrans.swift; sourceTree = "<group>"; };
+		6F299DAC2760F4EF0073D971 /* Jeu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeu1.swift; sourceTree = "<group>"; };
+		6F6EE59A2769E36100757541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F6EE59C2769E5AB00757541 /* EvenementDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenementDetail.swift; sourceTree = "<group>"; };
+		6F6EE59E276A27AF00757541 /* Dev.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dev.mp4; sourceTree = "<group>"; };
+		6FC891E82767903B00D74554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F299D6C275F5F4F0073D971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F0D7BA5276742EF000B0E5E /* IntrosJeux */ = {
+			isa = PBXGroup;
+			children = (
+				6F299DAA2760D5830073D971 /* getTrans.swift */,
+				6F0D7B9C276742CA000B0E5E /* IntroJeu1.swift */,
+				6F0D7B99276742CA000B0E5E /* IntroJeu2.swift */,
+				6F0D7B97276742CA000B0E5E /* IntroJeu3.swift */,
+				6F0D7B9B276742CA000B0E5E /* IntroJeu4.swift */,
+				6F0D7B98276742CA000B0E5E /* IntroJeu5.swift */,
+				6F0D7B9D276742CA000B0E5E /* IntroJeu6.swift */,
+				6F0D7B9A276742CA000B0E5E /* IntroJeu7.swift */,
+			);
+			path = IntrosJeux;
+			sourceTree = "<group>";
+		};
+		6F299D66275F5F4F0073D971 = {
+			isa = PBXGroup;
+			children = (
+				6F299D71275F5F4F0073D971 /* MILASPROJECT */,
+				6F299D70275F5F4F0073D971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F299D70275F5F4F0073D971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F299D6F275F5F4F0073D971 /* MILASPROJECT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F299D71275F5F4F0073D971 /* MILASPROJECT */ = {
+			isa = PBXGroup;
+			children = (
+				6F6EE59A2769E36100757541 /* Assets.xcassets */,
+				6FC891E82767903B00D74554 /* Info.plist */,
+				6F299D72275F5F4F0073D971 /* MILASPROJECTApp.swift */,
+				6F0D7B9027673ECD000B0E5E /* TabVue.swift */,
+				6F299D86275F72C00073D971 /* Activités.swift */,
+				6F0D7B8627634776000B0E5E /* Resultat.swift */,
+				6F0D7B8E27673CB8000B0E5E /* Evenement.swift */,
+				6F6EE59C2769E5AB00757541 /* EvenementDetail.swift */,
+				6F0D7BA5276742EF000B0E5E /* IntrosJeux */,
+				6F299DAC2760F4EF0073D971 /* Jeu1.swift */,
+				6F299D8A275F8C130073D971 /* ReussiteJeu1.swift */,
+				6F299D92275FA59A0073D971 /* Branches.swift */,
+				6F06C9752768DD3F0002E327 /* Metier.swift */,
+				6F6EE59E276A27AF00757541 /* Dev.mp4 */,
+				6F299D81275F5F730073D971 /* SCREEN */,
+				6F299D80275F5F670073D971 /* DATA */,
+				6F299D78275F5F510073D971 /* Preview Content */,
+			);
+			path = MILASPROJECT;
+			sourceTree = "<group>";
+		};
+		6F299D78275F5F510073D971 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F299D79275F5F510073D971 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F299D80275F5F670073D971 /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				6F299D84275F5F990073D971 /* Database.swift */,
+				6F299D82275F5F8F0073D971 /* Models.swift */,
+			);
+			path = DATA;
+			sourceTree = "<group>";
+		};
+		6F299D81275F5F730073D971 /* SCREEN */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SCREEN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F299D6E275F5F4F0073D971 /* MILASPROJECT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F299D7D275F5F510073D971 /* Build configuration list for PBXNativeTarget "MILASPROJECT" */;
+			buildPhases = (
+				6F299D6B275F5F4F0073D971 /* Sources */,
+				6F299D6C275F5F4F0073D971 /* Frameworks */,
+				6F299D6D275F5F4F0073D971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MILASPROJECT;
+			productName = MILASPROJECT;
+			productReference = 6F299D6F275F5F4F0073D971 /* MILASPROJECT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F299D67275F5F4F0073D971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6F299D6E275F5F4F0073D971 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F299D6A275F5F4F0073D971 /* Build configuration list for PBXProject "MILASPROJECT" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F299D66275F5F4F0073D971;
+			productRefGroup = 6F299D70275F5F4F0073D971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F299D6E275F5F4F0073D971 /* MILASPROJECT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F299D6D275F5F4F0073D971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6EE59F276A27AF00757541 /* Dev.mp4 in Resources */,
+				6F6EE59B2769E36100757541 /* Assets.xcassets in Resources */,
+				6F299D7A275F5F510073D971 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F299D6B275F5F4F0073D971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F299DAB2760D5830073D971 /* getTrans.swift in Sources */,
+				6F0D7BA1276742CA000B0E5E /* IntroJeu7.swift in Sources */,
+				6F0D7B9F276742CA000B0E5E /* IntroJeu5.swift in Sources */,
+				6F299D83275F5F8F0073D971 /* Models.swift in Sources */,
+				6F0D7BA0276742CA000B0E5E /* IntroJeu2.swift in Sources */,
+				6F0D7B9E276742CA000B0E5E /* IntroJeu3.swift in Sources */,
+				6F6EE59D2769E5AB00757541 /* EvenementDetail.swift in Sources */,
+				6F06C9762768DD3F0002E327 /* Metier.swift in Sources */,
+				6F0D7BA3276742CA000B0E5E /* IntroJeu1.swift in Sources */,
+				6F299DAD2760F4EF0073D971 /* Jeu1.swift in Sources */,
+				6F299D85275F5F990073D971 /* Database.swift in Sources */,
+				6F0D7BA4276742CA000B0E5E /* IntroJeu6.swift in Sources */,
+				6F299D8B275F8C130073D971 /* ReussiteJeu1.swift in Sources */,
+				6F0D7B8727634776000B0E5E /* Resultat.swift in Sources */,
+				6F299D93275FA59A0073D971 /* Branches.swift in Sources */,
+				6F299D73275F5F4F0073D971 /* MILASPROJECTApp.swift in Sources */,
+				6F0D7B8F27673CB8000B0E5E /* Evenement.swift in Sources */,
+				6F0D7BA2276742CA000B0E5E /* IntroJeu4.swift in Sources */,
+				6F0D7B9127673ECD000B0E5E /* TabVue.swift in Sources */,
+				6F299D87275F72C00073D971 /* Activités.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F299D7B275F5F510073D971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F299D7C275F5F510073D971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F299D7E275F5F510073D971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MILASPROJECT/Preview Content\"";
+				DEVELOPMENT_TEAM = 56U756R2L2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MILASPROJECT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.MILASPROJECT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F299D7F275F5F510073D971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MILASPROJECT/Preview Content\"";
+				DEVELOPMENT_TEAM = 56U756R2L2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MILASPROJECT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.MILASPROJECT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F299D6A275F5F4F0073D971 /* Build configuration list for PBXProject "MILASPROJECT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F299D7B275F5F510073D971 /* Debug */,
+				6F299D7C275F5F510073D971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F299D7D275F5F510073D971 /* Build configuration list for PBXNativeTarget "MILASPROJECT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F299D7E275F5F510073D971 /* Debug */,
+				6F299D7F275F5F510073D971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F299D67275F5F4F0073D971 /* Project object */;
+}
