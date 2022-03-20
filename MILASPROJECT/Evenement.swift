@@ -14,8 +14,8 @@ struct Evenement: View {
             Image("FondC")
                 .resizable()
                 .ignoresSafeArea(.all, edges: .top)
-                    
-                        
+            
+            
             ScrollView {
                 VStack (alignment:.leading){
                     ForEach(evenements){
@@ -46,59 +46,59 @@ struct Evenement_Previews: PreviewProvider {
 }
 
 
-    //Structure de element
-    struct EvenementRowView : View {
-        var evenementI: EvenementInfo
-        var body: some View {
-            HStack {
+//Structure de element
+struct EvenementRowView : View {
+    var evenementI: EvenementInfo
+    var body: some View {
+        HStack {
+            
+            
+            
+            VStack {
+                Image(systemName: "calendar.circle")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 35, height: 35)
+                    .foregroundColor(.black)
+                    .padding()
                 
+            }
+            
+            VStack(alignment:.leading){
+                Text(getDate(inputDate:evenementI.dateEvenement))
+                    .foregroundColor(.black)
+                    .font(.title3)
                 
+                Spacer()
                 
-                VStack {
-                    Image(systemName: "calendar.circle")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 35, height: 35)
-                        .foregroundColor(.black)
-                        .padding()
-                    
-                }
+                Text(evenementI.titleEvenement)
+                    .font(.title2).bold()
+                    .foregroundColor(.black)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .multilineTextAlignment(.leading)
                 
-                VStack(alignment:.leading){
-                    Text(getDate(inputDate:evenementI.dateEvenement))
-                            .foregroundColor(.black)
-                            .font(.title3)
+                Spacer()
+                
+                HStack {
                     
                     Spacer()
                     
-                    Text(evenementI.titleEvenement)
-                        .font(.title2).bold()
+                    Image(systemName: "mappin.and.ellipse")
                         .foregroundColor(.black)
-                        .fixedSize(horizontal: false, vertical: true)
-                        .multilineTextAlignment(.leading)
                     
-                    Spacer()
-                    
-                    HStack {
-                        
-                        Spacer()
-                        
-                        Image(systemName: "mappin.and.ellipse")
-                            .foregroundColor(.black)
-                        
-                        Text(evenementI.cityEvenement)
-                            .font(.title2).italic()
+                    Text(evenementI.cityEvenement)
+                        .font(.title2).italic()
                         .foregroundColor(.black)
-                        
-                        Spacer().frame(width: 15)
-                    }
+                    
+                    Spacer().frame(width: 15)
                 }
-            }.scaledToFit()
-                .frame(width: 300, height: 150, alignment:.leading)
-                .background(Color("StarColor"))
-                .cornerRadius(15)
-                .shadow(radius: 10)
-                .opacity(0.8)
-        }
+            }
+        }.scaledToFit()
+            .frame(width: 300, height: 150, alignment:.leading)
+            .background(Color("StarColor"))
+            .cornerRadius(15)
+            .shadow(radius: 10)
+            .opacity(0.8)
     }
+}
 

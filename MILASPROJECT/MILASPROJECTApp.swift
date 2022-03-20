@@ -9,12 +9,10 @@ import SwiftUI
 
 @main
 struct MILASPROJECTApp: App {
-    
-    var isActive: PopStack = PopStack()
-    
+        
     var body: some Scene {
         WindowGroup {
-            TabVue().environmentObject(isActive)
+            TabVue()
         }
     }
 }

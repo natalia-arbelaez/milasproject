@@ -8,10 +8,7 @@
 import SwiftUI
 
 struct Resultat: View {
-    
-    @EnvironmentObject var isActive: PopStack
 
-    
     var body: some View {
         
         

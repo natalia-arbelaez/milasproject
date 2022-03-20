@@ -9,39 +9,23 @@ import SwiftUI
 
 struct Activites: View {
     
-    @EnvironmentObject var isActive: PopStack
-    
     var body: some View {
-        
         
         ZStack {
             
             Image("FondC")
                 .resizable()
                 .ignoresSafeArea(.all, edges: .top)
-                
             
             
-            VStack{
-                
-                
-                NavigationLink(
-                    destination: IntroJeu1(),
-                    isActive: $isActive.isActive){
-                        ActivityRow(activity: activities[0])
-                    }
-                
-                ForEach(activities){ activity in
+            ScrollView {
+                VStack{
                     
-                    if activity.idA == 1 {
-                        Text("")
-                    } else {
-                        NavigationLink(destination: getTrans(getDest: activity.idA ), label: {ActivityRow(activity: activity)})
-                        Text("")
+                    ForEach(activities){ activity in
+                        
+                        NavigationLink(destination: IntroJeu(activity: activity), label: {ActivityRow(activity: activity)})
                     }
-                    
                 }
-                
             }
             
         }.toolbar {
@@ -50,32 +34,19 @@ struct Activites: View {
                     .font(.title)
                     .foregroundColor(.black)
                     .bold()
-                    
-                    
+                
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
-
-
-struct ExtCircle : View {
-    var color : Color
-    var body: some View {
-        Circle()
-            .foregroundColor(color)
-            .frame(width: 40, height: 40)
-    }
-}
-
 
 struct Activites_Previews: PreviewProvider {
     static var previews: some View {
         
         NavigationView{
-            Activites().environmentObject(PopStack())
-            
+            Activites()
         }
-        
     }
 }
 
@@ -83,16 +54,16 @@ struct ActivityRow: View {
     @StateObject var activity: Activity
     
     var body: some View {
-        HStack{
-           
-            Text(activity.nameA)
-                .foregroundColor(.black)
-         
-        }
-        .frame(width: 300, height: 60)
-        .background(activity.isCompleted ? Color("StarColor") : .white)
-        .cornerRadius(15)
-        .shadow(radius: 50)
+        
+        Text(activity.nameA)
+            .foregroundColor(.black)
+            .frame(maxWidth: .infinity, minHeight: BUTTON_HEIGHT)
+            .background(activity.isCompleted ? .white : Color("StarColor"))
+            .cornerRadius(15)
+            .shadow(radius: 50)
+            .padding(.bottom, 5)
+            .padding(.leading, 10)
+            .padding(.trailing, 10)
     }
 }
 
