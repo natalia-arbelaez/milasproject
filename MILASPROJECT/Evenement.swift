@@ -16,27 +16,26 @@ struct Evenement: View {
                 .ignoresSafeArea(.all, edges: .top)
                     
                         
-                        ScrollView {
-                            VStack (alignment:.leading){
-                                ForEach(evenements){
-                                    evenementO in
-                                    NavigationLink(destination:EvenementDetail(evenement:evenementO), label:{
-                                        EvenementRowView(evenementI:evenementO)
-                                    })
-                                }
-                                .padding()
-                                .cornerRadius(12)
-                            }
-                        }
-                    }.toolbar {
-                        ToolbarItem(placement: .principal){
-                            Text("Évènements")
-                                .font(.title)
-                                .foregroundColor(.black)
-                                .bold()
-                        }
+            ScrollView {
+                VStack (alignment:.leading){
+                    ForEach(evenements){
+                        evenementO in
+                        NavigationLink(destination:EvenementDetail(evenement:evenementO), label:{
+                            EvenementRowView(evenementI:evenementO)
+                        })
                     }
-        
+                    .padding()
+                    .cornerRadius(12)
+                }
+            }
+        }.toolbar {
+            ToolbarItem(placement: .principal){
+                Text("Évènements")
+                    .font(.title)
+                    .foregroundColor(.black)
+                    .bold()
+            }
+        }
     }
 }
 

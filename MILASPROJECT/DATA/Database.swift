@@ -24,10 +24,10 @@ var activities = [
 
 var jobs =    [
     job(nameJ: "Développeur-euse web mobile", detailJ: "Créer une application"),
-    job(nameJ: "Architecte web", detailJ: "validation des solutions techniques\n" + "jusqu'aux phases de test\n"),
-    job(nameJ: "Chef-fe de projet web-mobile", detailJ: "Interface entre le client et les\n" + "différents professionnels"),
-    job(nameJ: "Intégrateur-trice web", detailJ: "Réunir, assembler les différents\n" + "éléments qui composent un site"),
-    job(nameJ: "Community manager", detailJ: "Fédère et anime les échanges\n" + "entre internautes"),
+    job(nameJ: "Architecte web", detailJ: "validation des solutions techniques jusqu'aux phases de test"),
+    job(nameJ: "Chef-fe de projet web-mobile", detailJ: "Interface entre le client et les différents professionnels"),
+    job(nameJ: "Intégrateur-trice web", detailJ: "Réunir, assembler les différents éléments qui composent un site"),
+    job(nameJ: "Community manager", detailJ: "Fédère et anime les échanges entre internautes"),
     job(nameJ: "Webdesigner-euse", detailJ: "Capable de réaliser une interface web ergonomique et un design")
 ]
 
