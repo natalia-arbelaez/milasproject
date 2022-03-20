@@ -11,22 +11,15 @@
 		6F0D7B8727634776000B0E5E /* Resultat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B8627634776000B0E5E /* Resultat.swift */; };
 		6F0D7B8F27673CB8000B0E5E /* Evenement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B8E27673CB8000B0E5E /* Evenement.swift */; };
 		6F0D7B9127673ECD000B0E5E /* TabVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B9027673ECD000B0E5E /* TabVue.swift */; };
-		6F0D7B9E276742CA000B0E5E /* IntroJeu3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B97276742CA000B0E5E /* IntroJeu3.swift */; };
-		6F0D7B9F276742CA000B0E5E /* IntroJeu5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B98276742CA000B0E5E /* IntroJeu5.swift */; };
-		6F0D7BA0276742CA000B0E5E /* IntroJeu2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B99276742CA000B0E5E /* IntroJeu2.swift */; };
-		6F0D7BA1276742CA000B0E5E /* IntroJeu7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B9A276742CA000B0E5E /* IntroJeu7.swift */; };
-		6F0D7BA2276742CA000B0E5E /* IntroJeu4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B9B276742CA000B0E5E /* IntroJeu4.swift */; };
-		6F0D7BA3276742CA000B0E5E /* IntroJeu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B9C276742CA000B0E5E /* IntroJeu1.swift */; };
-		6F0D7BA4276742CA000B0E5E /* IntroJeu6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B9D276742CA000B0E5E /* IntroJeu6.swift */; };
+		6F0D7BA3276742CA000B0E5E /* IntroJeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D7B9C276742CA000B0E5E /* IntroJeu.swift */; };
 		6F299D73275F5F4F0073D971 /* MILASPROJECTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D72275F5F4F0073D971 /* MILASPROJECTApp.swift */; };
 		6F299D7A275F5F510073D971 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F299D79275F5F510073D971 /* Preview Assets.xcassets */; };
 		6F299D83275F5F8F0073D971 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D82275F5F8F0073D971 /* Models.swift */; };
 		6F299D85275F5F990073D971 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D84275F5F990073D971 /* Database.swift */; };
 		6F299D87275F72C00073D971 /* Activités.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D86275F72C00073D971 /* Activités.swift */; };
-		6F299D8B275F8C130073D971 /* ReussiteJeu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D8A275F8C130073D971 /* ReussiteJeu1.swift */; };
+		6F299D8B275F8C130073D971 /* ReussiteJeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D8A275F8C130073D971 /* ReussiteJeu.swift */; };
 		6F299D93275FA59A0073D971 /* Branches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299D92275FA59A0073D971 /* Branches.swift */; };
-		6F299DAB2760D5830073D971 /* getTrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299DAA2760D5830073D971 /* getTrans.swift */; };
-		6F299DAD2760F4EF0073D971 /* Jeu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299DAC2760F4EF0073D971 /* Jeu1.swift */; };
+		6F299DAD2760F4EF0073D971 /* Jeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F299DAC2760F4EF0073D971 /* Jeu.swift */; };
 		6F6EE59B2769E36100757541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6EE59A2769E36100757541 /* Assets.xcassets */; };
 		6F6EE59D2769E5AB00757541 /* EvenementDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6EE59C2769E5AB00757541 /* EvenementDetail.swift */; };
 		6F6EE59F276A27AF00757541 /* Dev.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6F6EE59E276A27AF00757541 /* Dev.mp4 */; };
@@ -37,23 +30,16 @@
 		6F0D7B8627634776000B0E5E /* Resultat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resultat.swift; sourceTree = "<group>"; };
 		6F0D7B8E27673CB8000B0E5E /* Evenement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evenement.swift; sourceTree = "<group>"; };
 		6F0D7B9027673ECD000B0E5E /* TabVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabVue.swift; sourceTree = "<group>"; };
-		6F0D7B97276742CA000B0E5E /* IntroJeu3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu3.swift; sourceTree = "<group>"; };
-		6F0D7B98276742CA000B0E5E /* IntroJeu5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu5.swift; sourceTree = "<group>"; };
-		6F0D7B99276742CA000B0E5E /* IntroJeu2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu2.swift; sourceTree = "<group>"; };
-		6F0D7B9A276742CA000B0E5E /* IntroJeu7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu7.swift; sourceTree = "<group>"; };
-		6F0D7B9B276742CA000B0E5E /* IntroJeu4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu4.swift; sourceTree = "<group>"; };
-		6F0D7B9C276742CA000B0E5E /* IntroJeu1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu1.swift; sourceTree = "<group>"; };
-		6F0D7B9D276742CA000B0E5E /* IntroJeu6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu6.swift; sourceTree = "<group>"; };
+		6F0D7B9C276742CA000B0E5E /* IntroJeu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroJeu.swift; sourceTree = "<group>"; };
 		6F299D6F275F5F4F0073D971 /* MILASPROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MILASPROJECT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F299D72275F5F4F0073D971 /* MILASPROJECTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILASPROJECTApp.swift; sourceTree = "<group>"; };
 		6F299D79275F5F510073D971 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F299D82275F5F8F0073D971 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		6F299D84275F5F990073D971 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		6F299D86275F72C00073D971 /* Activités.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activités.swift"; sourceTree = "<group>"; };
-		6F299D8A275F8C130073D971 /* ReussiteJeu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReussiteJeu1.swift; sourceTree = "<group>"; };
+		6F299D8A275F8C130073D971 /* ReussiteJeu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReussiteJeu.swift; sourceTree = "<group>"; };
 		6F299D92275FA59A0073D971 /* Branches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branches.swift; sourceTree = "<group>"; };
-		6F299DAA2760D5830073D971 /* getTrans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getTrans.swift; sourceTree = "<group>"; };
-		6F299DAC2760F4EF0073D971 /* Jeu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeu1.swift; sourceTree = "<group>"; };
+		6F299DAC2760F4EF0073D971 /* Jeu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeu.swift; sourceTree = "<group>"; };
 		6F6EE59A2769E36100757541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F6EE59C2769E5AB00757541 /* EvenementDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenementDetail.swift; sourceTree = "<group>"; };
 		6F6EE59E276A27AF00757541 /* Dev.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dev.mp4; sourceTree = "<group>"; };
@@ -71,21 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F0D7BA5276742EF000B0E5E /* IntrosJeux */ = {
-			isa = PBXGroup;
-			children = (
-				6F299DAA2760D5830073D971 /* getTrans.swift */,
-				6F0D7B9C276742CA000B0E5E /* IntroJeu1.swift */,
-				6F0D7B99276742CA000B0E5E /* IntroJeu2.swift */,
-				6F0D7B97276742CA000B0E5E /* IntroJeu3.swift */,
-				6F0D7B9B276742CA000B0E5E /* IntroJeu4.swift */,
-				6F0D7B98276742CA000B0E5E /* IntroJeu5.swift */,
-				6F0D7B9D276742CA000B0E5E /* IntroJeu6.swift */,
-				6F0D7B9A276742CA000B0E5E /* IntroJeu7.swift */,
-			);
-			path = IntrosJeux;
-			sourceTree = "<group>";
-		};
 		6F299D66275F5F4F0073D971 = {
 			isa = PBXGroup;
 			children = (
@@ -113,9 +84,9 @@
 				6F0D7B8627634776000B0E5E /* Resultat.swift */,
 				6F0D7B8E27673CB8000B0E5E /* Evenement.swift */,
 				6F6EE59C2769E5AB00757541 /* EvenementDetail.swift */,
-				6F0D7BA5276742EF000B0E5E /* IntrosJeux */,
-				6F299DAC2760F4EF0073D971 /* Jeu1.swift */,
-				6F299D8A275F8C130073D971 /* ReussiteJeu1.swift */,
+				6F0D7B9C276742CA000B0E5E /* IntroJeu.swift */,
+				6F299DAC2760F4EF0073D971 /* Jeu.swift */,
+				6F299D8A275F8C130073D971 /* ReussiteJeu.swift */,
 				6F299D92275FA59A0073D971 /* Branches.swift */,
 				6F06C9752768DD3F0002E327 /* Metier.swift */,
 				6F6EE59E276A27AF00757541 /* Dev.mp4 */,
@@ -221,24 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F299DAB2760D5830073D971 /* getTrans.swift in Sources */,
-				6F0D7BA1276742CA000B0E5E /* IntroJeu7.swift in Sources */,
-				6F0D7B9F276742CA000B0E5E /* IntroJeu5.swift in Sources */,
 				6F299D83275F5F8F0073D971 /* Models.swift in Sources */,
-				6F0D7BA0276742CA000B0E5E /* IntroJeu2.swift in Sources */,
-				6F0D7B9E276742CA000B0E5E /* IntroJeu3.swift in Sources */,
 				6F6EE59D2769E5AB00757541 /* EvenementDetail.swift in Sources */,
 				6F06C9762768DD3F0002E327 /* Metier.swift in Sources */,
-				6F0D7BA3276742CA000B0E5E /* IntroJeu1.swift in Sources */,
-				6F299DAD2760F4EF0073D971 /* Jeu1.swift in Sources */,
+				6F0D7BA3276742CA000B0E5E /* IntroJeu.swift in Sources */,
+				6F299DAD2760F4EF0073D971 /* Jeu.swift in Sources */,
 				6F299D85275F5F990073D971 /* Database.swift in Sources */,
-				6F0D7BA4276742CA000B0E5E /* IntroJeu6.swift in Sources */,
-				6F299D8B275F8C130073D971 /* ReussiteJeu1.swift in Sources */,
+				6F299D8B275F8C130073D971 /* ReussiteJeu.swift in Sources */,
 				6F0D7B8727634776000B0E5E /* Resultat.swift in Sources */,
 				6F299D93275FA59A0073D971 /* Branches.swift in Sources */,
 				6F299D73275F5F4F0073D971 /* MILASPROJECTApp.swift in Sources */,
 				6F0D7B8F27673CB8000B0E5E /* Evenement.swift in Sources */,
-				6F0D7BA2276742CA000B0E5E /* IntroJeu4.swift in Sources */,
 				6F0D7B9127673ECD000B0E5E /* TabVue.swift in Sources */,
 				6F299D87275F72C00073D971 /* Activités.swift in Sources */,
 			);

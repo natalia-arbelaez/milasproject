@@ -8,19 +8,15 @@
 import Foundation
 import SwiftUI
 
-
-
 var activities = [
-    Activity(idA: 1, nameA: "Activité 1", isCompleted: false, noteA: nil),
-    Activity(idA: 2, nameA: "Activité 2", isCompleted: true, noteA: 2),
-    Activity(idA: 3, nameA: "Activité 3", isCompleted: true, noteA: 4),
-    Activity(idA: 4, nameA: "Activité 4", isCompleted: true, noteA: 3),
-    Activity(idA: 5, nameA: "Activité 5", isCompleted: true, noteA: 5),
-    Activity(idA: 6, nameA: "Activité 6", isCompleted: true, noteA: 2),
-    Activity(idA: 7, nameA: "Activité 7", isCompleted: true, noteA: 1)
+    Activity(id: 1, name: "Activité 1", objectif: "Amener le petit robot à la case indiquée en lui donnant les bonnes instructions !", isCompleted: false, note: nil),
+    Activity(id: 2, name: "Activité 2", objectif: "objectif 2", isCompleted: false, note: 2),
+    Activity(id: 3, name: "Activité 3", objectif: "objectif 3", isCompleted: false, note: 4),
+    Activity(id: 4, name: "Activité 4", objectif: "objectif 4", isCompleted: false, note: 3),
+    Activity(id: 5, name: "Activité 5", objectif: "objectif 5", isCompleted: false, note: 5),
+    Activity(id: 6, name: "Activité 6", objectif: "objectif 6", isCompleted: false, note: 2),
+    Activity(id: 7, name: "Activité 7", objectif: "objectif 7", isCompleted: false, note: 1)
 ]
-
-
 
 var jobs =    [
     job(nameJ: "Développeur-euse web mobile", detailJ: "Créer une application"),
@@ -30,6 +26,8 @@ var jobs =    [
     job(nameJ: "Community manager", detailJ: "Fédère et anime les échanges entre internautes"),
     job(nameJ: "Webdesigner-euse", detailJ: "Capable de réaliser une interface web ergonomique et un design")
 ]
+
+let BUTTON_HEIGHT : CGFloat? = 70
 
 
 

@@ -14,16 +14,16 @@ class Activity: Identifiable, ObservableObject{
     let id = UUID()
     let idA: Int
     let nameA: String
+    let objectifA: String
     @Published var isCompleted: Bool
     var noteA: Int?
 
-    
-
-    init(idA: Int, nameA: String, isCompleted: Bool, noteA: Int?){
-        self.idA = idA
-        self.nameA = nameA
+    init(id: Int, name: String, objectif: String, isCompleted: Bool, note: Int?){
+        self.idA = id
+        self.nameA = name
         self.isCompleted = isCompleted
-        self.noteA = noteA
+        self.noteA = note
+        self.objectifA = objectif
     }
     
 }
@@ -39,12 +39,6 @@ struct jobGroup: Identifiable {
     let id = UUID()
     let nameJobG : String
     let percent: Int
-    
-}
-
-class PopStack: ObservableObject{
-    
-    @Published var isActive: Bool = false
     
 }
 

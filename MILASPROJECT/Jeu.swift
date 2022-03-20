@@ -7,28 +7,25 @@
 
 import SwiftUI
 
-struct Jeu1: View {
+struct Jeu: View {
     
-    
+    var activity : Activity
     var body: some View {
         
         ZStack {
             
-            NavigationLink(destination: ReussiteJeu1(), label: {
+            NavigationLink(destination: ReussiteJeu(activity: activity), label: {
                 Image("ImageActivite1")
                     .resizable()
                     .ignoresSafeArea(.all, edges: .top)
             })
-            
-            
-                }.navigationBarBackButtonHidden(true)
-        
-        
+        }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
 struct Jeu1_Previews: PreviewProvider {
     static var previews: some View {
-        Jeu1( )
+        Jeu( activity: activities[0] )
     }
 }
